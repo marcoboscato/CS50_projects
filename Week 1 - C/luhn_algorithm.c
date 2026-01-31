@@ -145,12 +145,12 @@ void card_type(long user_number, int len_number)
     // American Express
     if (len_number == 15 && (two_digits == 34 || two_digits == 37))
     {
-        printf("AMEX!\n");
+        printf("AMEX\n");
     }
     // MasterCard
     else if (len_number == 16 && two_digits >= 51 && two_digits <= 55)
     {
-        printf("MASTERCARD!\n");
+        printf("MASTERCARD\n");
     }
     // Visa
     else if ((two_digits / 10) == 4 && (len_number == 13 || len_number == 16))
