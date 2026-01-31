@@ -79,7 +79,6 @@ void make_pyramid(int high)
         print_block(b);
         print_space(2);
         print_block(b);
-        print_space(s);
         printf("\n");
         s--;
         b++;
