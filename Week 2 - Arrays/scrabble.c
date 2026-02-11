@@ -3,6 +3,10 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+This is a program that implements a simple scrabble game. The user provides two words, and the program calculates the score for each word based on a predefined points system, and then determines the winner.
+*/
+
 int count_points(string word, const char letters[], const int points[]);
 
 int main(void)

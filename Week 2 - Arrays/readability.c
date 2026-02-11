@@ -4,6 +4,10 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+This is a program that implements the Coleman-Liau index to determine the readability of a given text. The user provides a text, and the program calculates the number of letters, words, and sentences in the text, and then uses these counts to compute the index and determine the grade level of the text.
+*/
+
 float calculate_L(int letters, int words);
 float calculate_S(int senteces, int words);
 void grade(float index);
